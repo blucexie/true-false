@@ -1,0 +1,304 @@
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#tF1 {
+  background: url("../images/tfT1-bg.png");
+  background-size: cover;
+}
+#wrap .wrapTitle img {
+  width: 4.82rem;
+  height: 2.38rem;
+}
+#wrap .wrapTitle {
+  /* positio n: absolute;
+  top: 84/@r;
+  left: 212/@r*/
+  padding-top: 1.68rem;
+  margin-left: 4.24rem;
+}
+#wrap .robot img {
+  width: 5.62rem;
+  height: 6.2rem;
+}
+#wrap .robot {
+  /* position: absolute;
+  top: 64/@r;
+  right: 26/@r;*/
+  padding-left: 8.6rem;
+  margin-top: -2.4rem;
+}
+#wrap .main {
+  /*  position: absolute;
+  top: 388/@r;
+  left: 50%;
+  margin-left: -346/@r;*/
+  margin: 0 auto;
+  text-align: center;
+  background: url("../images/tfT1-nr.png") no-repeat;
+  background-size: 13.86rem 7.96rem;
+  margin-top: 0.2rem;
+  position: relative;
+}
+#wrap .main {
+  width: 13.86rem;
+  height: 7.96rem;
+}
+#wrap .main h3 {
+  /* position: absolute;
+  top: 114/@r;
+  left: 100/@r;
+  font-size: 40/@r;
+  color: #e50065;*/
+  font-size: 0.8rem;
+  color: #e50065;
+  padding-top: 2.28rem;
+}
+#wrap .main .content {
+  /* width: 480/@r;
+  height: 180/@r;
+  position: absolute;
+  top: 200/@r;
+  left: 100/@r;*/
+  margin-top: 0.6rem;
+}
+#wrap .main .content p {
+  color: #e50065;
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+  padding: 0 0.72rem;
+}
+#wrap .judge {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  /*position: absolute;
+  top: 1000/@r;*/
+}
+#wrap .judge a {
+  display: inline-block;
+  margin-left: 0.88rem;
+}
+#wrap .judge a img {
+  width: 5.94rem;
+  height: 2rem;
+}
+#wrap .seal {
+  /* position: absolute;
+  top: 790/@r;
+  right: 50/@r;*/
+}
+#true_t,
+#false_t {
+  animation: bigSM 1s infinite ease-out;
+  animation-direction: alternate;
+}
+@keyframes bigSM {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.2) rotate(10deg);
+  }
+}
+#true_t {
+  /*float: right;
+  margin-top: 140/@r;
+  margin-right: -20/@r;*/
+  display: none;
+  position: absolute;
+  bottom: -4rem;
+  right: 0;
+}
+#false_t {
+  display: none;
+  /*float: right;
+  margin-top: 140/@r;
+  margin-right: -20/@r;*/
+  position: absolute;
+  bottom: -4rem;
+  right: 0;
+}
+#wrap .seal img {
+  width: 3.68rem;
+  height: 3.78rem;
+}
+/*APP真*/
+#share-T {
+  /*display: none;
+  width: 100%;
+  position: absolute;
+  top: 950/@r;
+  text-align: center;*/
+  padding-top: 4rem;
+  text-align: center;
+}
+#share-T h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  text-shadow: 0 0 0.6rem #00e6eb;
+}
+#share-T p {
+  font-size: 0.6rem;
+  color: #fff;
+  line-height: 1.2rem;
+  padding: 0 0.32rem;
+  text-shadow: 0 0 0.6rem #00e6eb;
+}
+#share-T p span {
+  display: inline;
+}
+.btn {
+  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+.btn img {
+  width: 7.8rem;
+  height: 2.42rem;
+}
+/*APP假*/
+#share-F {
+  /*display: none;
+  width: 100%;
+  position: absolute;
+  top: 950/@r;*/
+  padding-top: 4rem;
+  text-align: center;
+  /*width: 100%;
+  padding-top: 150/@r;
+  text-align: center;*/
+}
+#share-F h2 {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  text-shadow: 0 0 0.6rem #00e6eb;
+}
+#share-F p {
+  font-size: 0.6rem;
+  color: #fff;
+  line-height: 1.2rem;
+  padding: 0 0.32rem;
+}
+#share-F .btn {
+  margin-top: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+#share-F .truth .bt {
+  float: left;
+  font-size: 0.6rem;
+  color: #fff;
+  text-shadow: 0 0 0.6rem #00e6eb;
+}
+#share-F .truth .bt span {
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.54rem;
+  background: url("../images/bulb.png") no-repeat;
+  background-size: 1.4rem 1.54rem;
+  vertical-align: middle;
+}
+#share-F > p {
+  text-shadow: 0 0 0.6rem #00e6eb;
+}
+.erweima {
+  display: none;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+#myImage {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 0.4rem;
+}
+.erweima p {
+  text-shadow: 0 0 0.6rem #00e6eb;
+  font-size: 0.6rem;
+  color: #fff;
+  text-align: center;
+}
+.truthNR {
+  margin-top: 0.4rem;
+  text-align: left;
+  padding: 0 0.6rem !important;
+}
+#footer {
+  width: 100%;
+  height: 1.52rem;
+  background: url("../images/tfT1-bg.png");
+}
+/*重组*/
+.source {
+  color: skyblue;
+  margin: 0 auto;
+}
+.truthNR .characters {
+  display: inline-block;
+  width: 0.6rem !important;
+}
+.truthNR .separate {
+  position: absolute;
+}
+/*按钮动画*/
+.bounce {
+  z-index: 5;
+  animation: beat 1.2s ease-in-out infinite forwards;
+}
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+  15%,
+  45% {
+    transform: scale3d(1.2, 1.2, 1);
+  }
+  35% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  65% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes beat-shadow {
+  0%,
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+  15%,
+  45% {
+    transform: scale3d(1.05, 1.05, 1);
+  }
+  30%,
+  60% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+/*机器人动画*/
+.robot img {
+  animation: myfirst 2s infinite;
+}
+@keyframes myfirst {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

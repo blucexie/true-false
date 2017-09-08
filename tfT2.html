@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>吃一包方便面需要32天“解毒”</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/tfT.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="js/tfT2.js"></script>
+    <!--重组-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js'></script>
+
+    <script type="text/javascript">
+        (function () {
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize=hWidth/15+'px';
+        })()
+    </script>
+</head>
+<body>
+
+<!--主界面-->
+<div id="tF1">
+    <div id="wrap">
+    <div class="wrapTitle">
+        <img src="images/wrapTitle.png" alt="">
+    </div>
+    <div class="robot">
+        <img src="images/robot.png" alt="">
+    </div>
+    <div class="main">
+
+        <h3>吃一包方便面需要32天“解毒”</h3>
+        <div class="content">
+            <p>有种说法称，吃一包方便面需要32天“解毒”，这是真的吗？</p>
+        </div>
+        <div class="seal">
+            <img id="true_t" src="images/tfT1-sealT.png" alt="">
+            <img id="false_t" src="images/tfT1-sealF.png" alt="">
+        </div>
+    </div>
+    <div class="judge">
+        <a id="true" href="javascript:;"><img src="images/tfT1-true.png" alt=""></a>
+        <a id="false" href="javascript:;"><img src="images/tfT1-false.png" alt=""></a>
+    </div>
+
+
+    <div id="share-T">
+        <h2>你猜对了小可爱！</h2>
+        <p class="">哇，同学，我看你天赋异禀，定是国家栋梁之才，不知其他小伙伴是否如你一般天资聪慧，快分享给他们试试吧！</p>
+    </div>
+
+    <div id="share-F">
+        <h2>你猜错了小可爱 嘤嘤嘤！</h2>
+        <p>正所谓在天愿做比翼鸟在地愿做同圈猪！自己猜错了不开心，那就赶紧分享给猪队友们让自己开心开心！</p>
+        <div class="truth">
+            <p class="bt "><span ></span>真相</p><br>
+            <p class="truthNR">偶尔吃一包方便面没有任何问题，不需要用任何东西“解毒”，也无需等上32天。如果担心营养不够自己往面里加一些蔬菜鸡蛋肉类就好，不过最好别配火腿肠。常吃方便面无法满足身体所需要的维生素、纤维素和矿物质等营养成分，也会造成盐分摄入过量，长期下去可能会出现便秘、营养不良、电解质紊乱、水钠潴留，甚至心血管疾病等健康问题，小孩子常吃影响身体发育。只是再忙再懒得做饭也不能天天只吃方便面，营养跟不上还可能会惹疾病上身，身体是革命的本钱！</p>
+        </div>
+    </div>
+    <div class="erweima">
+        <img id="myImage" src="images/andIos.jpg" alt="">
+        <p>长按或扫描二维码即可下载玩起来哦</p>
+        <div class="btn">
+            <img class="bounce"  src="images/tfT1-play.png" alt="">
+        </div>
+    </div>
+</div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+@r:50rem;
+.clearfix{
+  zoom:1;
+}
+.clearfix:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+*{margin: 0;padding: 0;}
+#tfS {
+  background: url("../images/tfS1-trueBG.png") no-repeat;
+  /* background-size: 750/@r 1206/@r;*/
+  /*  background-size: cover;*/
+  background-size: cover;
+}
+#wrap{
+  overflow: auto;
+}
+.main{
+  background: url("../images/tfS-main.png")no-repeat;
+  background-size: 704/@r 519/@r;
+  background-position: center;
+  margin-top: 260/@r;
+  position: relative;
+  text-align: center;
+  padding-bottom: 106/@r;
+  overflow: auto;
+}
+/*.main img{
+  width:704/@r;
+  height:519/@r;
+}*/
+.main h3{
+  margin-top: 200/@r;
+  font-size: 40/@r;
+  color: #632636;
+  text-align: center;
+  margin-bottom: 30/@r;
+}
+.content p{
+  color: #632636;
+  font-size: 30/@r;
+  line-height: 60/@r;
+  padding: 0 70/@r;
+  font-weight: bold;
+}
+#wrap .judge{
+ /* display: none;*/
+  padding-top: 170/@r;
+  padding-bottom: 160/@r;
+
+}
+#wrap .judge a{
+  display: inline-block;
+  margin-left: 90/@r;
+}
+#wrap .judge a img{
+  width:230/@r ;
+  height: 80/@r;
+}
+/*APP真*/
+#share-T{
+  display: none;
+  padding-top: 60/@r;
+  text-align: center;
+
+}
+#share-T h2{
+  text-align: center;
+  font-size: 60/@r;
+  color: #632636;
+  font-weight: bold;
+  margin-top: 20/@r ;
+  margin-bottom: 20/@r;
+}
+#share-T p{
+  font-size: 30/@r;
+  color: #632636;
+  line-height: 60/@r;
+  padding: 0 16/@r;
+  font-weight: bold;
+}
+/*APP假*/
+#share-F{
+  display: none;
+  padding-top: 60/@r;
+  text-align: center;
+}
+#share-F h2{
+  text-align: center;
+  font-size: 60/@r;
+  color: #632636;
+  font-weight: bold;
+  margin-top: 20/@r ;
+  margin-bottom: 20/@r;
+}
+#share-F p{
+  font-size: 30/@r;
+  color: #632636;
+  line-height: 60/@r;
+  padding: 0 16/@r;
+}
+
+#share-F .truth .bt{
+  float: left;
+  font-size: 30/@r;
+  color: #632636;
+  margin-left: 14/@r;
+
+}
+
+.erweima{
+  display: none;
+  margin-top: 30/@r;
+  text-align: center;
+}
+#myImage{
+  width: 200/@r;
+  height: 200/@r;
+  margin-bottom: 20/@r;
+}
+.erweima p{
+  font-size: 30/@r;
+  color: #632636;
+  text-align: center;
+  margin-bottom: 40/@r;
+}
+.bounce{
+  width: 240/@r;
+  height: 80/@r;
+  margin-bottom: 40/@r;
+}
+#footer{
+  width: 100%;
+  height: 76/@r;
+}
+/*按钮动画*/
+.bounce {
+  z-index: 5;
+  animation: beat 1.2s ease-in-out infinite forwards;
+}
+@keyframes beat {
+  0%, 100% { transform: scale3d(1,1,1);}
+  15%, 45% { transform: scale3d(1.2,1.2,1); }
+  35% { transform: scale3d(1.1,1.1,1); }
+  65% { transform: scale3d(1,1,1); }
+}
+
+@keyframes beat-shadow {
+  0%, 100% { transform: scale3d(1,1,1);}
+  15%, 45% { transform: scale3d(1.05,1.05,1);}
+  30%, 60% { transform: scale3d(1,1,1);}
+}

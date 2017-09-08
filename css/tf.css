@@ -1,0 +1,260 @@
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#wrap {
+  position: relative;
+  width: 15rem;
+  height: 26.88rem;
+  background: url("../images/tf-bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+#wrap .logo img {
+  width: 3.86rem;
+  height: 1.74rem;
+}
+#wrap .logo {
+  position: absolute;
+  top: 8rem;
+  left: 1.4rem;
+}
+#wrap .main {
+  position: absolute;
+  top: 8.6rem;
+  left: 1.2rem;
+  margin: 0 auto;
+}
+#wrap .main img {
+  width: 12.4rem;
+  height: 12.7rem;
+}
+#wrap .main h3 {
+  position: absolute;
+  top: 2.8rem;
+  left: 1.2rem;
+  font-size: 0.8rem;
+  color: #fff;
+}
+#wrap .main .content {
+  width: 9.6rem;
+  height: 8rem;
+  position: absolute;
+  top: 4.4rem;
+  left: 1.28rem;
+}
+#wrap .main .content p {
+  color: #fff;
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+}
+#wrap .judge {
+  position: absolute;
+  bottom: 1.4rem;
+}
+#wrap .judge a {
+  display: inline-block;
+  margin-left: 0.88rem;
+}
+#wrap .judge a img {
+  width: 5.94rem;
+  height: 2rem;
+}
+#foot {
+  position: relative;
+  width: 100%;
+  height: 1.52rem;
+  background: #e2e3ff ;
+}
+/*真*/
+#trueY {
+  display: none;
+  position: relative;
+  width: 15rem;
+  height: 37.5rem;
+  background: url("../images/tbg.png") no-repeat;
+  background-size: 100% 100%;
+}
+#trueY .logo img {
+  width: 3.86rem;
+  height: 1.74rem;
+}
+#trueY .logo {
+  position: absolute;
+  top: 8rem;
+  left: 1.4rem;
+}
+#trueY .main {
+  position: absolute;
+  top: 8.6rem;
+  left: 1.2rem;
+  margin: 0 auto;
+}
+#trueY .main img {
+  width: 12.4rem;
+  height: 12.7rem;
+}
+#trueY .main h3 {
+  position: absolute;
+  top: 2.8rem;
+  left: 1.2rem;
+  font-size: 0.8rem;
+  color: #fff;
+}
+#trueY .main .content {
+  width: 9.6rem;
+  height: 8rem;
+  position: absolute;
+  top: 4.4rem;
+  left: 1.28rem;
+}
+#trueY .main .content p {
+  color: #fff;
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+}
+#trueY .seal {
+  position: absolute;
+  top: 18.6rem;
+  right: 0.8rem;
+}
+#trueY .seal img {
+  width: 2.86rem;
+  height: 2.86rem;
+}
+#trueY .share {
+  width: 100%;
+  position: absolute;
+  top: 23rem;
+  text-align: center;
+}
+#trueY .share h2 {
+  font-size: 1.2rem;
+  color: #ab5b04;
+}
+#trueY .share p {
+  font-size: 0.6rem;
+  color: #ab5b04;
+  line-height: 1.2rem;
+}
+#trueY .share .erweima {
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+#trueY .share .erweima img {
+  width: 4.1rem;
+  height: 4.1rem;
+}
+#trueY .share .btn {
+  margin-top: 0.8rem;
+}
+#trueY .share .btn img {
+  width: 5.94rem;
+  height: 2rem;
+}
+/*假*/
+#falseY {
+  display: none;
+  position: relative;
+  width: 15rem;
+  height: 44.5rem;
+  background: url("../images/fbg.png") no-repeat;
+  background-size: 100% 100%;
+}
+#falseY .logo img {
+  width: 3.86rem;
+  height: 1.74rem;
+}
+#falseY .logo {
+  position: absolute;
+  top: 8rem;
+  left: 1.4rem;
+}
+#falseY .main {
+  position: absolute;
+  top: 8.6rem;
+  left: 1.2rem;
+  margin: 0 auto;
+}
+#falseY .main img {
+  width: 12.4rem;
+  height: 12.7rem;
+}
+#falseY .main h3 {
+  position: absolute;
+  top: 2.8rem;
+  left: 1.2rem;
+  font-size: 0.8rem;
+  color: #fff;
+}
+#falseY .main .content {
+  width: 9.6rem;
+  height: 8rem;
+  position: absolute;
+  top: 4.4rem;
+  left: 1.28rem;
+}
+#falseY .main .content p {
+  color: #fff;
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+}
+#falseY .seal {
+  position: absolute;
+  top: 18.6rem;
+  right: 0.8rem;
+}
+#falseY .seal img {
+  width: 2.86rem;
+  height: 2.86rem;
+}
+#falseY .share {
+  position: absolute;
+  top: 23rem;
+  text-align: center;
+}
+#falseY .share h2 {
+  font-size: 1.2rem;
+  color: #ab5b04;
+}
+#falseY .share p {
+  font-size: 0.6rem;
+  color: #ab5b04;
+  line-height: 1.2rem;
+  padding: 0 0.4rem;
+}
+#falseY .share .erweima {
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+#falseY .share .erweima img {
+  width: 4.1rem;
+  height: 4.1rem;
+}
+#falseY .share .btn {
+  margin-top: 0.8rem;
+}
+#falseY .share .btn img {
+  width: 5.94rem;
+  height: 2rem;
+}
+#falseY .share .truth .bt {
+  float: left;
+  font-size: 0.6rem;
+  color: #ab5b04;
+}
+#falseY .share .truth span {
+  display: inline-block;
+  width: 0.78rem;
+  height: 1.1rem;
+  background: url("../images/sugar.png") no-repeat;
+  background-size: 0.78rem 1.1rem;
+  vertical-align: middle;
+}
